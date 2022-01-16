@@ -4,14 +4,13 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Authentication;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Identity;
-using Microsoft.AspNetCore.Identity.UI.Services;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 using SouthparkForum.Data.Models;
-using SouthparkForum.Extensions;
-using SouthparkForum.Models;
 using SouthparkForum.Models.AccountViewModel;
 using SouthparkForum.Models.AccountViewModels;
+using SouthparkForum.Services;
+
 
 namespace SouthparkForum.Controllers
 {
@@ -21,13 +20,13 @@ namespace SouthparkForum.Controllers
     {
         private readonly UserManager<ApplicationUser> _userManager;
         private readonly SignInManager<ApplicationUser> _signInManager;
-        private readonly IEmailSender _emailSender;
+        private readonly Services.IEmailSender _emailSender;
         private readonly ILogger _logger;
 
         public AccountController(
             UserManager<ApplicationUser> userManager,
             SignInManager<ApplicationUser> signInManager,
-            IEmailSender emailSender,
+            Services.IEmailSender emailSender,
             ILogger<AccountController> logger)
         {
             _userManager = userManager;
@@ -461,3 +460,4 @@ namespace SouthparkForum.Controllers
         #endregion
     }
 }
+

@@ -5,7 +5,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace SouthparkForum.Extensions
+namespace Microsoft.AspNetCore.Mvc
 {
     public static class UrlHelperExtensions
     {
