@@ -21,4 +21,10 @@
     <ProjectReference Include="..\SouthparkForum.Service\SouthparkForum.Service.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Content Update="Views\_ViewImports.cshtml">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+
 </Project>
