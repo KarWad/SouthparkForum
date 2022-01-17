@@ -3,7 +3,7 @@
     padding-bottom: 20px;*/
     padding: 50px 0 20px 0;
     background-color: #EEE;
-    background-image: url('file:///C:\Users\Karolina\source\repos\SouthparkForum\SouthparkForum\wwwroot\Images\images.jpg');
+    background-image: url("/Images/Craig.png");
     background-size: 100%;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -15,7 +15,7 @@
 }
 
 .navLogo {
-    background-image: url('file:///C:\Users\Karolina\source\repos\SouthparkForum\SouthparkForum\wwwroot\Images\kindpng_6978495.png');
+    background-image: url("/Images/kindpng_6978495.png");
     background-size: 100%;
     background-repeat: no-repeat;
     background-position: center;

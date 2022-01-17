@@ -521,7 +521,7 @@ namespace SouthparkForum.Controllers
         {
             return string.Format(
                 AuthenticatorUriFormat,
-                _urlEncoder.Encode("LambdaForums"),
+                _urlEncoder.Encode("SouthPark"),
                 _urlEncoder.Encode(email),
                 unformattedKey);
         }

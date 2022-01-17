@@ -1,13 +1,12 @@
-﻿using Microsoft.AspNetCore.Http;
-using Microsoft.AspNetCore.Identity;
-using Microsoft.AspNetCore.Mvc;
+﻿using System.Linq;
+using System.Threading.Tasks;
+using SouthparkForum.Data;
 using SouthparkForum.Data.Models;
 using SouthparkForum.Models.ApplicationUser;
+using Microsoft.AspNetCore.Http;
+using Microsoft.AspNetCore.Identity;
+using Microsoft.AspNetCore.Mvc;
 using SouthParkForum.Data;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 
 namespace SouthparkForum.Controllers
 {
@@ -64,7 +63,7 @@ namespace SouthparkForum.Controllers
         }
 
         [HttpPost]
-        public async Task<IActionResult> UploadProfileImage(IFormFile file)
+        public IActionResult UploadProfileImage(IFormFile file)
         {
             var userId = _userManager.GetUserId(User);
 

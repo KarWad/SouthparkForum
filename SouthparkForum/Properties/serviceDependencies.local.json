@@ -1,0 +1,17 @@
+{
+  "dependencies": {
+    "secrets1": {
+      "type": "secrets.user"
+    },
+    "storage1": {
+      "type": "storage.emulator",
+      "connectionId": "Obraz",
+      "secretStore": "LocalSecretsFile"
+    },
+    "mssql1": {
+      "type": "mssql.local",
+      "connectionId": "Obraz:blob",
+      "secretStore": "LocalSecretsFile"
+    }
+  }
+}

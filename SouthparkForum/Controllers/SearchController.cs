@@ -11,6 +11,7 @@ using System.Threading.Tasks;
 
 namespace SouthparkForum.Controllers
 {
+
     public class SearchController : Controller
     {
         private readonly IPost _postService;
