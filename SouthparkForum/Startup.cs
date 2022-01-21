@@ -8,7 +8,6 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using SouthparkForum.Data.Models;
 using SouthparkForum.Service;
-using SouthparkForum.Service.LambdaForums.Service;
 using SouthparkForum.Services;
 using SouthParkForum.Data;
 using IHostingEnvironment = Microsoft.AspNetCore.Hosting.IHostingEnvironment;

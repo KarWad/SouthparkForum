@@ -7,10 +7,7 @@ using System.Threading.Tasks;
 
 namespace SouthparkForum.Service
 {
-    namespace LambdaForums.Service
-    {
         public class UploadService : IUpload
         {
         }
     }
-}

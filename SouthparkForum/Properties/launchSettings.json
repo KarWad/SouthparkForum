@@ -17,7 +17,7 @@
         "ASPNETCORE_ENVIRONMENT": "Development"
       }
     },
-    "LambdaForums": {
+    "SouthForums": {
       "commandName": "Project",
       "launchBrowser": true,
       "environmentVariables": {
